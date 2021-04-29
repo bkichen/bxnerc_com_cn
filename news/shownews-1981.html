@@ -1,0 +1,353 @@
+
+
+
+
+<!--floating tools bar start-->
+<div id="floatbar" style='position:absolute; width:60; top:0; left:0; FILTER:ALPHA(opacity=100); visibility:visible; z-index: 1'>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr bgcolor="#ffffff"> 
+<td width="0" align="center">
+	<p><img src="../images/l_left.gif" width="60" height="187" border="0"></p>
+	</td>
+</tr>
+</table>
+</div>
+<script language="JavaScript">
+<!--
+function mymove()
+{
+	floatbar.style.top  = document.body.scrollTop + document.body.clientWidth*0.12;
+	
+	floatbar.style.left =  document.body.clientWidth/2 - floatbar.clientWidth-960/2-document.body.clientWidth/4+960/4+20;
+	
+	setTimeout("mymove();",80)
+}
+mymove();
+-->
+</script>
+<!--floating tools bar end-->
+<!--floating2 tools bar start-->
+<div id="floatbar2" style='position:absolute; width:60; top:0; left:0; FILTER:ALPHA(opacity=100); visibility:visible; z-index: 1'>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr bgcolor="#ffffff"> 
+<td width="0" align="center">
+	<p><img src="../images/l_right.gif" width="60" height="187" border="0"></p>
+	</td>
+</tr>
+</table>
+</div>
+<script language="JavaScript">
+<!--
+function mymove2()
+{
+	floatbar2.style.top  = document.body.scrollTop + document.body.clientWidth*0.12;
+	
+	floatbar2.style.left = document.body.clientWidth/2 +960/2+document.body.clientWidth/4-960/4-20;
+	setTimeout("mymove2();",80)
+}
+mymove2();
+-->
+</script>
+<!--floating2 tools bar end-->
+
+<script type="text/javascript" language="javascript" src="../js/flash.js"></script>
+
+<script language="JavaScript">
+var currentpos,timer;
+
+function initialize()
+{
+timer=setInterval("scrollwindow()",50);
+}
+function sc(){
+clearInterval(timer);
+}
+function scrollwindow()
+{
+currentpos=document.body.scrollTop;
+window.scroll(0,++currentpos);
+if (currentpos != document.body.scrollTop)
+sc();
+}
+document.onmousedown=sc
+document.ondblclick=initialize
+</script>
+
+
+
+
+
+
+
+<link href="../style/css.css" rel="stylesheet" type="text/css">
+
+<title>国家中药制药工程技术研究中心--上海中药制药技术有限公司  最新动态</title><table width="768" border="0" align="center" cellpadding="0" cellspacing="0">
+   <tr>
+     <td>&nbsp;</td>
+     <td width="762" height="30" bgcolor="#FAFAFA"><script language="JavaScript" type="text/javascript">i('../flash/top.swf','762','30');</script></td>
+     <td>&nbsp;</td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+         <td><img src="../images/news_banner.gif" width="371" height="135"></td>
+         <td><img src="../images/news_banner2.jpg" width="391" height="135"></td>
+       </tr>
+     </table></td>
+     <td>&nbsp;</td>
+   </tr>
+   <tr>
+     <td width="3" rowspan="2" background="../images/left_l.gif">&nbsp;</td>
+     <td width="774" background="../images/bg.gif" bgcolor="#F0F0F0"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="../images/bg.gif">
+       <tr>
+         <td height="5" valign="top" background="../images/bg.gif" bgcolor="#FFFFFF"></td>
+       </tr>
+       <tr>
+         <td height="72" valign="top"><table width="760" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+           <tr>
+             <td width="180" valign="top" background="../images/list_bg2.gif"> 
+			 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<table width="178" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td><table width="178" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td align="center"><table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="30" background="../images/list_title.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bold_blue">新闻搜索</span></td>
+              </tr>
+              <tr>
+                <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="../images/list_bg3.gif">
+                    <form name="form1" method="get" action="News_search.asp" target="_blank">
+                      <tr>
+                        <td height="30" align="center">
+                          <input name="key" type="text" class="input" id="key" size="19">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="30" align="center">
+                          <select name="otype" class="input">
+                            <option value="title" selected="" class="input">新闻标题</option>
+                            <option value="msg" class="input">新闻内容</option>
+                          </select>
+              　
+              <input type="submit" name="Submit2" value="搜索" class="input"></td>
+                      </tr>
+                    </form>
+                </table></td>
+              </tr>
+              <tr>
+                <td height="5"><img src="../images/list_bt.gif" width="178" height="5"></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="10" valign="bottom">&nbsp;</td>
+      </tr>
+    </table>
+      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr background="../images/list_title.jpg">
+          <td width="100%" height="30" background="../images/list_title.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bold_blue">本类最新新闻 NEW10</span></td>
+        </tr>
+        
+      </table>
+      <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">1</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2211.html" title="我公司提取班组荣获“创新达人赛”先进班组。" target="_blank" class="text">我公司提取班组荣获“...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">2</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2071.html" title="我公司获“劳动竞赛”先进单位、余文榜获先进个人称号" target="_blank" class="text">我公司获“劳动竞赛”...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">3</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2001.html" title="严把质量关，为人民健康负责的质检科" target="_blank" class="text">严把质量关，为人民健...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">4</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-1991.html" title="药理室里朝气蓬勃的年轻人" target="_blank" class="text">药理室里朝气蓬勃的年...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">5</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="" title="提取工段的女将们" target="_blank" class="text">提取工段的女将们</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">6</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-1971.html" title="余文榜同志的主人翁精神" target="_blank" class="text">余文榜同志的主人翁精...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">7</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-1961.html" title="促进区域发展全国示范性劳动竞赛(张江高科技园区)的实施方案" target="_blank" class="text">促进区域发展全国示范...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">8</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-1951.html" title="响应全总“区域发展全国示范性劳动竞赛”号召，积极开展我公司的劳动竞赛活动" target="_blank" class="text">响应全总“区域发展全...</a></td>
+        </tr>
+        
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+			 </td>
+             <td valign="top" background="../images/inside_bg.gif" bgcolor="#FFFFFF">
+               <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                 <tr>
+                   <td><img src="../images/news_title.jpg" alt="最新动态|News" width="579" height="43"></td>
+                 </tr>
+                 <tr>
+                   <td><img src="../images/inside_line.gif" width="579" height="10"></td>
+                 </tr>
+               </table>
+               <table width="572" border="0" cellspacing="0" cellpadding="0">
+                 <tr>
+                   <td width="12">&nbsp;</td>
+                   <td width="560"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                         <td width="238" valign="bottom" background="../images/title_bg1.gif" class="bold_blue"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                             <tr>
+                               <td height="21" class="bold_blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/ico1.gif" width="8" height="4" vspace="0" align="absmiddle"> &nbsp;&nbsp;劳动竞赛</td>
+                             </tr>
+                         </table></td>
+                         <td width="283" valign="bottom" background="../images/title_bg2.gif">&nbsp; </td>
+                         <td background="../images/title_bg2.gif"><div align="right"><img src="../images/title_ls.gif" width="7" height="25"></div></td>
+                       </tr>
+                   </table></td>
+                 </tr>
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td background="../images/inside_tb_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                         <td height="12"></td>
+                       </tr>
+                     </table>
+                       <table class="border" width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+                         <tr>
+                           <td height="206" valign="top">
+                             <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                               <tr>
+                                 <td height="30" colspan="2" align="center" class="text_red_b2">提取工段的女将们</td>
+                               </tr>
+                               <tr>
+                                 <td width="17%" class="news_tx2" style="border-top: 1 solid #999999;border-bottom: 1 solid #999999">双击自动滚屏</td>
+                                 <td width="83%" class="news_tx1" style="border-top: 1 solid #999999;border-bottom: 1 solid #999999">发布者：hkz1956 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发布时间：2012-4-20 7:20:27 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;阅读：<font color="#FF0000">10967</font>次</td>
+                               </tr>
+                               
+                               <tr>
+                                 <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                     <tr>
+                                       <td>&nbsp;</td>
+                                     </tr>
+                                   </table>
+                                     <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#F0F0F0">
+                                       <tr>
+                                         <td width='14%' class='text_body'>内容摘要:</td>
+                                         <td width='86%' bgcolor='#F6F6F6' class='text_body'>...</td>
+                                       </tr>
+                                   </table></td>
+                               </tr>
+                               
+                               <tr>
+                                 <td colspan="2"><br>
+                                     <div style="text_body"><p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在“促进区域发展全国示范性劳动竞赛”活动中，全体员工积极响应，用实际行动投入到“岗位学习、岗位创新、岗位成才、岗位奉献”劳动竞赛之中，先进事迹层出不穷，身边的感人故事不断，这里所叙述的就是我们公司的提取工段的女将们。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 我公司的综合生产车间除了生产公司自营的产品外，还具备中药生产中试（孵化）基地功能。因此，综合生产车间的提取工段除了要完成公司“济泰片”、“清肺抑火胶囊 ”等产品的提取浓缩任务外，还要承担大量的中试孵化技术平台科研所需要的“提取工艺参数优化”的任务。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这个以女同志为主的团队，有着高度的责任心和强烈的安全生产意识。多年来从未出现过一次安全事故。由于提取工段需要使用蒸汽加热来进行中药材的提取和浓缩，环境温度较高。投入的原材料大都是树皮草根的中药材，工作环境相对较差，劳动强度相对较大。但是女将们却不怕苦不怕累，任劳任怨，团结奋战，乐观向上，达到生产、科研双丰收。为公司发展立下头功！</p>
+<p>&nbsp;</p>
+<p><img onmousewheel="return zoom_img(event,this)" border="undefined" alt="" src="UploadFiles/201242072226112.jpg" onload="javascript:if(this.width>540)this.width=540"></p>
+<p>&nbsp;</p>
+<p>【提取工段领头人齐春华在操作超临界萃取装置】</p>
+<p>&nbsp;</p>
+<p><img onmousewheel="return zoom_img(event,this)" border="undefined" alt="" src="UploadFiles/20124207243162.jpg" onload="javascript:if(this.width>540)this.width=540"></p>
+<p>&nbsp;</p>
+<p>【卢菊妹和陈倩在研究干燥情况】</p>
+<p>&nbsp;</p>
+<p><img onmousewheel="return zoom_img(event,this)" border="undefined" alt="" src="UploadFiles/201242072618989.jpg" onload="javascript:if(this.width>540)this.width=540"></p>
+<p>&nbsp;</p>
+<p>【陈倩在观察罐内】</p>
+<p>&nbsp;</p>
+<p><img onmousewheel="return zoom_img(event,this)" border="undefined" alt="" src="UploadFiles/20124207275646.jpg" onload="javascript:if(this.width>540)this.width=540"></p>
+<p>&nbsp;</p>
+<p>【繁忙】</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p></p></div></td>
+                               </tr>
+                               <tr align="right">
+                                 <td colspan="2">&nbsp;</td>
+                               </tr>
+                               <tr align="right">
+                                 <td colspan="2">&nbsp;</td>
+                               </tr>
+                               
+                             </table>
+                             <br>
+                             <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                               <tr>
+                                 <td align="right"> <a href="javascript:window.print()" class="buttom_link">打印本页</a> <span class="text">|</span> <a href="javascript:window.close()" class="buttom_link">关闭窗口</a></td>
+                               </tr>
+                           </table></td>
+                         </tr>
+                       </table></td>
+                 </tr>
+                 <tr>
+                   <td></td>
+                   <td><img src="../images/inside_tb_bottom.gif" width="560" height="3"></td>
+                 </tr>
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                 </tr>
+               </table></td>
+           </tr>
+         </table>           </td>
+       </tr>
+     </table></td>
+     <td width="3" rowspan="2" background="../images/right_l.gif">&nbsp;</td>
+   </tr>
+   <tr>
+     <td height="69" valign="bottom" background="../images/b_bg.jpg"><table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="20"><div align="center"><br>
+            </div></td>
+          </tr>
+          <tr>
+            <td height="20"><div align="center">联系地址：中国（上海）自由贸易试验区牛顿路200号4号楼 <a href="javascript:;">沪ICP备19039227号-1</a></div></td>
+          </tr>
+          <tr>
+            <td height="20"><div align="center">访问统计：
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="104" height="24">
+                <param name="movie" value="../flash/getcounter.swf">
+				<param name="wmode" value="transparent">
+                <param name="quality" value="high">
+                <embed src="../flash/getcounter.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="104" height="24">
+              </object>
+            </div></td>
+          </tr>
+        </table>
+</td>
+   </tr>
+ </table>

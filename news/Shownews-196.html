@@ -1,0 +1,382 @@
+
+
+
+
+<!--floating tools bar start-->
+<div id="floatbar" style='position:absolute; width:60; top:0; left:0; FILTER:ALPHA(opacity=100); visibility:visible; z-index: 1'>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr bgcolor="#ffffff"> 
+<td width="0" align="center">
+	<p><img src="../images/l_left.gif" width="60" height="187" border="0"></p>
+	</td>
+</tr>
+</table>
+</div>
+<script language="JavaScript">
+<!--
+function mymove()
+{
+	floatbar.style.top  = document.body.scrollTop + document.body.clientWidth*0.12;
+	
+	floatbar.style.left =  document.body.clientWidth/2 - floatbar.clientWidth-960/2-document.body.clientWidth/4+960/4+20;
+	
+	setTimeout("mymove();",80)
+}
+mymove();
+-->
+</script>
+<!--floating tools bar end-->
+<!--floating2 tools bar start-->
+<div id="floatbar2" style='position:absolute; width:60; top:0; left:0; FILTER:ALPHA(opacity=100); visibility:visible; z-index: 1'>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr bgcolor="#ffffff"> 
+<td width="0" align="center">
+	<p><img src="../images/l_right.gif" width="60" height="187" border="0"></p>
+	</td>
+</tr>
+</table>
+</div>
+<script language="JavaScript">
+<!--
+function mymove2()
+{
+	floatbar2.style.top  = document.body.scrollTop + document.body.clientWidth*0.12;
+	
+	floatbar2.style.left = document.body.clientWidth/2 +960/2+document.body.clientWidth/4-960/4-20;
+	setTimeout("mymove2();",80)
+}
+mymove2();
+-->
+</script>
+<!--floating2 tools bar end-->
+
+<script type="text/javascript" language="javascript" src="../js/flash.js"></script>
+
+<script language="JavaScript">
+var currentpos,timer;
+
+function initialize()
+{
+timer=setInterval("scrollwindow()",50);
+}
+function sc(){
+clearInterval(timer);
+}
+function scrollwindow()
+{
+currentpos=document.body.scrollTop;
+window.scroll(0,++currentpos);
+if (currentpos != document.body.scrollTop)
+sc();
+}
+document.onmousedown=sc
+document.ondblclick=initialize
+</script>
+
+
+
+
+
+
+
+<link href="../style/css.css" rel="stylesheet" type="text/css">
+
+<title>国家中药制药工程技术研究中心--上海中药制药技术有限公司  最新动态</title><table width="768" border="0" align="center" cellpadding="0" cellspacing="0">
+   <tr>
+     <td>&nbsp;</td>
+     <td width="762" height="30" bgcolor="#FAFAFA"><script language="JavaScript" type="text/javascript">i('../flash/top.swf','762','30');</script></td>
+     <td>&nbsp;</td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+         <td><img src="../images/news_banner.gif" width="371" height="135"></td>
+         <td><img src="../images/news_banner2.jpg" width="391" height="135"></td>
+       </tr>
+     </table></td>
+     <td>&nbsp;</td>
+   </tr>
+   <tr>
+     <td width="3" rowspan="2" background="../images/left_l.gif">&nbsp;</td>
+     <td width="774" background="../images/bg.gif" bgcolor="#F0F0F0"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="../images/bg.gif">
+       <tr>
+         <td height="5" valign="top" background="../images/bg.gif" bgcolor="#FFFFFF"></td>
+       </tr>
+       <tr>
+         <td height="72" valign="top"><table width="760" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+           <tr>
+             <td width="180" valign="top" background="../images/list_bg2.gif"> 
+			 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<table width="178" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td><table width="178" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td align="center"><table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="30" background="../images/list_title.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bold_blue">新闻搜索</span></td>
+              </tr>
+              <tr>
+                <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="../images/list_bg3.gif">
+                    <form name="form1" method="get" action="News_search.asp" target="_blank">
+                      <tr>
+                        <td height="30" align="center">
+                          <input name="key" type="text" class="input" id="key" size="19">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="30" align="center">
+                          <select name="otype" class="input">
+                            <option value="title" selected="" class="input">新闻标题</option>
+                            <option value="msg" class="input">新闻内容</option>
+                          </select>
+              　
+              <input type="submit" name="Submit2" value="搜索" class="input"></td>
+                      </tr>
+                    </form>
+                </table></td>
+              </tr>
+              <tr>
+                <td height="5"><img src="../images/list_bt.gif" width="178" height="5"></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="10" valign="bottom">&nbsp;</td>
+      </tr>
+    </table>
+      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr background="../images/list_title.jpg">
+          <td width="100%" height="30" background="../images/list_title.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bold_blue">本类最新新闻 NEW10</span></td>
+        </tr>
+        
+      </table>
+      <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">1</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2211.html" title="我公司提取班组荣获“创新达人赛”先进班组。" target="_blank" class="text">我公司提取班组荣获“...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">2</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2071.html" title="我公司获“劳动竞赛”先进单位、余文榜获先进个人称号" target="_blank" class="text">我公司获“劳动竞赛”...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">3</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2001.html" title="严把质量关，为人民健康负责的质检科" target="_blank" class="text">严把质量关，为人民健...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">4</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-1991.html" title="药理室里朝气蓬勃的年轻人" target="_blank" class="text">药理室里朝气蓬勃的年...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">5</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-1981.html" title="提取工段的女将们" target="_blank" class="text">提取工段的女将们</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">6</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-1971.html" title="余文榜同志的主人翁精神" target="_blank" class="text">余文榜同志的主人翁精...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">7</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-1961.html" title="促进区域发展全国示范性劳动竞赛(张江高科技园区)的实施方案" target="_blank" class="text">促进区域发展全国示范...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">8</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-1951.html" title="响应全总“区域发展全国示范性劳动竞赛”号召，积极开展我公司的劳动竞赛活动" target="_blank" class="text">响应全总“区域发展全...</a></td>
+        </tr>
+        
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+			 </td>
+             <td valign="top" background="../images/inside_bg.gif" bgcolor="#FFFFFF">
+               <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                 <tr>
+                   <td><img src="../images/news_title.jpg" alt="最新动态|News" width="579" height="43"></td>
+                 </tr>
+                 <tr>
+                   <td><img src="../images/inside_line.gif" width="579" height="10"></td>
+                 </tr>
+               </table>
+               <table width="572" border="0" cellspacing="0" cellpadding="0">
+                 <tr>
+                   <td width="12">&nbsp;</td>
+                   <td width="560"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                         <td width="238" valign="bottom" background="../images/title_bg1.gif" class="bold_blue"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                             <tr>
+                               <td height="21" class="bold_blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/ico1.gif" width="8" height="4" vspace="0" align="absmiddle"> &nbsp;&nbsp;劳动竞赛</td>
+                             </tr>
+                         </table></td>
+                         <td width="283" valign="bottom" background="../images/title_bg2.gif">&nbsp; </td>
+                         <td background="../images/title_bg2.gif"><div align="right"><img src="../images/title_ls.gif" width="7" height="25"></div></td>
+                       </tr>
+                   </table></td>
+                 </tr>
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td background="../images/inside_tb_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                         <td height="12"></td>
+                       </tr>
+                     </table>
+                       <table class="border" width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+                         <tr>
+                           <td height="206" valign="top">
+                             <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                               <tr>
+                                 <td height="30" colspan="2" align="center" class="text_red_b2">促进区域发展全国示范性劳动竞赛(张江高科技园区)的实施方案</td>
+                               </tr>
+                               <tr>
+                                 <td width="17%" class="news_tx2" style="border-top: 1 solid #999999;border-bottom: 1 solid #999999">双击自动滚屏</td>
+                                 <td width="83%" class="news_tx1" style="border-top: 1 solid #999999;border-bottom: 1 solid #999999">发布者：hkz1956 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发布时间：2011-8-9 9:55:58 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;阅读：<font color="#FF0000">8434</font>次</td>
+                               </tr>
+                               
+                               <tr>
+                                 <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                     <tr>
+                                       <td>&nbsp;</td>
+                                     </tr>
+                                   </table>
+                                     <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#F0F0F0">
+                                       <tr>
+                                         <td width='14%' class='text_body'>内容摘要:</td>
+                                         <td width='86%' bgcolor='#F6F6F6' class='text_body'>...</td>
+                                       </tr>
+                                   </table></td>
+                               </tr>
+                               
+                               <tr>
+                                 <td colspan="2"><br>
+                                     <div style="text_body"><p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 根据《中华全国总工会关于将“上海浦东新区”建设劳动竞赛作为区域发展全国示范性劳动竞赛的通知》精神和浦东新区总工会《实施方案》要求，结合张江高科技园区的特点和实际，制定本方案。</p>
+<p>一、参赛范围：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 张江高科技园区内已建工会的企事业单位及其职工</p>
+<p>二、竞赛主题；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 创新驱动建功十二五，转型发展建设新浦东</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----开展“岗位学习、岗位创新、岗位成才、岗位奉献”劳动竞赛</p>
+<p>三、组织机构：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 建立“张江高科技园区建设劳动竞赛组织委员会”，对园区开展劳动竞赛实行统一领导，协调推进。组委会下设办公室，负责竞赛活动的组织、落实、联络和竞赛日常工作。</p>
+<p>（一）组委会成员：</p>
+<p>主&nbsp; 任：（彭&nbsp; 立&nbsp; 张江工会联合会主席）</p>
+<p>副主任：（杨剑飞&nbsp; 张江工会联合会副主席）</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （邵云华&nbsp; 微创医疗器械（上海）有限公司工会主席）</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （洪伟忠&nbsp; 上海中信国健药业有限公司工会主席）</p>
+<p>成&nbsp; 员：微创医疗、花旗软件、奥威科技、中信国健、中药制药、中芯国际、宏立半导体、霍尼韦尔、卓多姿、菲尼萨、&nbsp;&nbsp; 三鑫科技、胜科金仕达、华亚微电子企业工会主席。</p>
+<p>（二）下设办公室：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 办公室设在张江工会联合会。工会联合会办公室人员、各组委会成员单位及参加劳动竞赛企业的工会主席为联络员</p>
+<p>四、竞赛内容</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 根据张江高科技园区内企业和职工的特点,即:非公企业占主导，科技创新、研发企业占多数；以信息技术、生物医药、文化创意、低碳技术为主导产业；职工学历高、专业层次高、年纪轻、外来人员多。开展多种形式的以职工科技创新为主线，以促进企业发展，提高职工素质和参与企业民主管理积极性为目的的竞赛活动，具体有以下几个方面：</p>
+<p>（一）积极推进职工科技创新活动，大力提高职工科技创新活动的参与面，进一步总结、推广园区内职工科技创新基地成功的经验和做法，使更多的企业、更多的职工能够投入到这项活动中来，以职工的参与度、活动形式的多样性和有效性为指标来开展这项竞赛活动；</p>
+<p>（二）进一步增加园区职工科技创新成果的数量，提高职工科技创新项目的质量，在数量上，争取有更多的企业、更多的职工科技创新项目上报，在质量上，园区的项目能更多的获得新区、市、甚至国家级的奖项；</p>
+<p>（三）鼓励企业和职工积极利用科技创新成果和自主知识产权，在成果转化和节能增效方面开展竞赛；</p>
+<p>（四）通过活动竞赛，发现和培育一批科技创新能手，并以此总结经验，树立典型，推出一批具有科技创新特色的、有影响力的职工先进典型；</p>
+<p>（五）大力推进园区职工科技知识的学习和普及，鼓励各企业结合各自的实际，利用多种形式，创建以学习、普及和掌握科技知识、科学技能为特色的学习型组织和学习型班组；</p>
+<p>五、竞赛形式</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 根据竞赛内容，各企业设置各单项竞赛活动的量化指标，申报和评比规则，由各企业选择一至若干项自行申报。组委会成员企业及有代表性、或规模企业，可以参照园区方案，结合自身特点，制定个性化的竞赛方案，纳入园区总体方案中。园区劳动竞赛组委会及其办公室将根据区竞赛方案的要求，进行阶段性的动员、布置、推进、落实、检查和评比。</p>
+<p>六、时间节点</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 第一阶段：动员准备阶段（2011年9月至10月）。园区组委会和各企业工会制定和下发竞赛活动方案，成立组织机构，建立竞赛活动工作机制。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 第二阶段：实施推进阶段（2011年10月至2012年3月）。根据竞赛方案深入开展各项竞赛活动，切实落实各项任务目标，广泛动员，营造声势，层层落实和推进。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2011年12月底召开整个园区劳动竞赛经验交流会暨劳动竞赛推进会。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 第三阶段：总结推选阶段（2012年3月至4月）。全面总结竞赛活动的经验，表彰和宣传劳动竞赛团队与个人。树立张江高科技园区劳动竞赛特别是科技创新品牌，将好的做法、经验在整个园区中广泛推广。</p>
+<p>七、工作要求</p>
+<p>（一）、突出重点，明确任务。各参赛企业要结合本单位的实际情况和转型发展的重点难点，在企业已有评比竞赛项目的基础上，确定竞赛的切入点和结合点，制定具有本企业特点的劳动竞赛具体方案。</p>
+<p>（二）、注重宣传，广泛发动。充分运用企业网络进行多种形式、多渠道广泛宣传，营造竞赛气氛，充分调动一线班组、广大职工，特别是劳务派遣工的积极性，形成全面动员、全程参与的竞赛热潮。</p>
+<p>（三）、培育典型，以点带面。加强分类指导和典型引路，注重点上突破和面上引领，鼓励有条件的单位先行先试，确定一些典型发挥示范引领作用，以带动全体员工创优争先，全面推进。</p>
+<p>（四）、精心组织，注重实效。积极争取企业行政的支持，共同落实责任、分解任务、细化措施。根据各企业的实际情况，完善竞赛机制，促进长效管理，增强竞赛的针对性和有效性。</p>
+<p>（五）、总结提高，合力推进。强化创新、创意思想，凝聚转型发展共识；及时总结经验，提炼有效做法；整合资源优势，注重品牌效应；加强组织领导，统筹协调推进。</p>
+<p>&nbsp;</p>
+<p>八、表彰奖励</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 对竞赛中涌现出的先进集体和个人，分四个层次予以表彰激励：</p>
+<p>（一）、园区级。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 集体奖：参与奖、组织奖、优秀组织奖、文明班组、文明岗位、劳动竞赛先进集体、创意明星企业、创业明星企业。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 个人奖：科技创新成果奖、先进操作法奖、合理化建议奖、职工科技创新英才奖、工人发明家、创意明星、劳动竞赛先进个人奖。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （具体评奖标准、方法及奖金数量另发）</p>
+<p>（二）、新区级。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在竞赛基础上，每年由浦东新区劳动竞赛组委会，根据园区劳动竞赛组委会的提名上报，评选表彰出一批“上海浦东新区”建设劳动竞赛先进集体、先进个人；评选表彰出一批“上海浦东新区”科技创新先进集体和先进个人。</p>
+<p>（三）、市级。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在竞赛活动中作出突出贡献的集体和个人，由竞赛组委会择优推荐“上海市五一劳动奖状”、“上海市五一劳动奖章”和“上海市工人先锋号”。在整个“十二五”期间的劳动竞赛中，上海市总工会每年按照全国总工会表彰奖项1:2的比例，配套表彰浦东新区上海市五一劳动奖状（奖章）和工人先锋号。</p>
+<p>（四）、全国级。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 特别优秀的集体和个人，经考核符合条件的，推荐参加“全国五一劳动奖状”、“全国五一劳动奖章”、“工人先锋号”的评选。在整个“十二五”期间的劳动竞赛中，全国总工会平均每年表彰浦东新区“全国五一劳动奖状”2个、“全国五一劳动奖章”4个、“全国工人先锋号”8个。</p>
+<p>九、机制建设</p>
+<p>（一）、例会机制。每年定期召开二次劳动竞赛主任、副主任、成员及联络员会议，及时沟通情况、反馈信息、落实任务、解决问题，确保劳动竞赛有序推进。每年“五一”前组织一次表彰会，总结交流工作经验，宣传典型，表彰先进，不断提高活动的覆盖面和活动的质量。</p>
+<p>（二）、信息机制。各成员和联络员单位每次开展的相关活动即时上报，组委会在张江工会联合会网站上专辟《劳动竞赛》栏目，各联络员可以把相关信息上报组委会办公室，或自行上传网站《工会信息》栏目。目的是宣传各参赛单位的先进集体、优秀班组和个人的典型事迹，营造一个人人参与、家家争当先进的浓厚氛围，扩大其知晓率和社会影响力。</p>
+<p>（三）、奖励机制。对竞赛活动中涌现的先进集体和个人，集中评比、分层表彰，激励先进、严格指标。组委会每年考核审定，并推荐报批，于次年“五一”前进行集中表彰奖励。按全国、市、新区和园区的级别，每年由竞赛组委会根据评比标准表彰一批“张江高科技园区”，在劳动竞赛活动中获得各类奖项的先进集体和个人；对在竞赛活动中事迹突出的集体和个人，由竞赛组委会根据评比标准择优推荐参加浦东新区、上海市及全国的各类先进集体和个人的评选。</p>
+<p>(四)、宣传机制。切实加强劳动竞赛活动的宣传，各参赛单位要利用企业自身的网站、、媒体等信息化手段，积极配合市、新区、园区各级媒体加大对劳动竞赛工作的宣传力度，宣传劳动竞赛的积极意义，宣传“劳动光荣、创造伟大”的理念。园区组委会将充分利用各类宣传阵地如：市、新区、张江园区的报纸、网站、工作专刊、信息简报等，突出宣传在劳动竞赛活动中园区内参赛单位，集体和个人的先进事迹和典型表现，为扎实推进劳动竞赛活动提供强大的舆论支持。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “张江高科技园区”建设劳动竞赛组委会办公室（筹）</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 二O一一年八月</p>
+<p></p></div></td>
+                               </tr>
+                               <tr align="right">
+                                 <td colspan="2">&nbsp;</td>
+                               </tr>
+                               <tr align="right">
+                                 <td colspan="2">&nbsp;</td>
+                               </tr>
+                               
+                             </table>
+                             <br>
+                             <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                               <tr>
+                                 <td align="right"> <a href="javascript:window.print()" class="buttom_link">打印本页</a> <span class="text">|</span> <a href="javascript:window.close()" class="buttom_link">关闭窗口</a></td>
+                               </tr>
+                           </table></td>
+                         </tr>
+                       </table></td>
+                 </tr>
+                 <tr>
+                   <td></td>
+                   <td><img src="../images/inside_tb_bottom.gif" width="560" height="3"></td>
+                 </tr>
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                 </tr>
+               </table></td>
+           </tr>
+         </table>           </td>
+       </tr>
+     </table></td>
+     <td width="3" rowspan="2" background="../images/right_l.gif">&nbsp;</td>
+   </tr>
+   <tr>
+     <td height="69" valign="bottom" background="../images/b_bg.jpg"><table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="20"><div align="center"><br>
+            </div></td>
+          </tr>
+          <tr>
+            <td height="20"><div align="center">联系地址：中国（上海）自由贸易试验区牛顿路200号4号楼 <a href="javascript:;">沪ICP备19039227号-1</a></div></td>
+          </tr>
+          <tr>
+            <td height="20"><div align="center">访问统计：
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="104" height="24">
+                <param name="movie" value="../flash/getcounter.swf">
+				<param name="wmode" value="transparent">
+                <param name="quality" value="high">
+                <embed src="../flash/getcounter.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="104" height="24">
+              </object>
+            </div></td>
+          </tr>
+        </table>
+</td>
+   </tr>
+ </table>

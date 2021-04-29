@@ -1,0 +1,351 @@
+
+
+
+
+<!--floating tools bar start-->
+<div id="floatbar" style='position:absolute; width:60; top:0; left:0; FILTER:ALPHA(opacity=100); visibility:visible; z-index: 1'>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr bgcolor="#ffffff"> 
+<td width="0" align="center">
+	<p><img src="../images/l_left.gif" width="60" height="187" border="0"></p>
+	</td>
+</tr>
+</table>
+</div>
+<script language="JavaScript">
+<!--
+function mymove()
+{
+	floatbar.style.top  = document.body.scrollTop + document.body.clientWidth*0.12;
+	
+	floatbar.style.left =  document.body.clientWidth/2 - floatbar.clientWidth-960/2-document.body.clientWidth/4+960/4+20;
+	
+	setTimeout("mymove();",80)
+}
+mymove();
+-->
+</script>
+<!--floating tools bar end-->
+<!--floating2 tools bar start-->
+<div id="floatbar2" style='position:absolute; width:60; top:0; left:0; FILTER:ALPHA(opacity=100); visibility:visible; z-index: 1'>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr bgcolor="#ffffff"> 
+<td width="0" align="center">
+	<p><img src="../images/l_right.gif" width="60" height="187" border="0"></p>
+	</td>
+</tr>
+</table>
+</div>
+<script language="JavaScript">
+<!--
+function mymove2()
+{
+	floatbar2.style.top  = document.body.scrollTop + document.body.clientWidth*0.12;
+	
+	floatbar2.style.left = document.body.clientWidth/2 +960/2+document.body.clientWidth/4-960/4-20;
+	setTimeout("mymove2();",80)
+}
+mymove2();
+-->
+</script>
+<!--floating2 tools bar end-->
+
+<script type="text/javascript" language="javascript" src="../js/flash.js"></script>
+
+<script language="JavaScript">
+var currentpos,timer;
+
+function initialize()
+{
+timer=setInterval("scrollwindow()",50);
+}
+function sc(){
+clearInterval(timer);
+}
+function scrollwindow()
+{
+currentpos=document.body.scrollTop;
+window.scroll(0,++currentpos);
+if (currentpos != document.body.scrollTop)
+sc();
+}
+document.onmousedown=sc
+document.ondblclick=initialize
+</script>
+
+
+
+
+
+
+
+<link href="../style/css.css" rel="stylesheet" type="text/css">
+
+<title>国家中药制药工程技术研究中心--上海中药制药技术有限公司  最新动态</title><table width="768" border="0" align="center" cellpadding="0" cellspacing="0">
+   <tr>
+     <td>&nbsp;</td>
+     <td width="762" height="30" bgcolor="#FAFAFA"><script language="JavaScript" type="text/javascript">i('../flash/top.swf','762','30');</script></td>
+     <td>&nbsp;</td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+         <td><img src="../images/news_banner.gif" width="371" height="135"></td>
+         <td><img src="../images/news_banner2.jpg" width="391" height="135"></td>
+       </tr>
+     </table></td>
+     <td>&nbsp;</td>
+   </tr>
+   <tr>
+     <td width="3" rowspan="2" background="../images/left_l.gif">&nbsp;</td>
+     <td width="774" background="../images/bg.gif" bgcolor="#F0F0F0"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="../images/bg.gif">
+       <tr>
+         <td height="5" valign="top" background="../images/bg.gif" bgcolor="#FFFFFF"></td>
+       </tr>
+       <tr>
+         <td height="72" valign="top"><table width="760" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+           <tr>
+             <td width="180" valign="top" background="../images/list_bg2.gif"> 
+			 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<table width="178" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td><table width="178" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td align="center"><table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="30" background="../images/list_title.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bold_blue">新闻搜索</span></td>
+              </tr>
+              <tr>
+                <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="../images/list_bg3.gif">
+                    <form name="form1" method="get" action="News_search.asp" target="_blank">
+                      <tr>
+                        <td height="30" align="center">
+                          <input name="key" type="text" class="input" id="key" size="19">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="30" align="center">
+                          <select name="otype" class="input">
+                            <option value="title" selected="" class="input">新闻标题</option>
+                            <option value="msg" class="input">新闻内容</option>
+                          </select>
+              　
+              <input type="submit" name="Submit2" value="搜索" class="input"></td>
+                      </tr>
+                    </form>
+                </table></td>
+              </tr>
+              <tr>
+                <td height="5"><img src="../images/list_bt.gif" width="178" height="5"></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="10" valign="bottom">&nbsp;</td>
+      </tr>
+    </table>
+      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr background="../images/list_title.jpg">
+          <td width="100%" height="30" background="../images/list_title.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bold_blue">本类最新新闻 NEW10</span></td>
+        </tr>
+        
+      </table>
+      <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">1</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2281.html" title="国家中药制药工程技术研究中心参加第五次科技部工程中心评估" target="_blank" class="text">国家中药制药工程技术...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">2</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2271.html" title="公司五届一次股东（董事）会胜利召开" target="_blank" class="text">公司五届一次股东（董...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">3</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2261.html" title="上海中药制药技术有限公司科协第一次代表大会顺利召开" target="_blank" class="text">上海中药制药技术有限...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">4</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2221.html" title="我提取班组获得“创新达人赛”先进班组称号" target="_blank" class="text">我提取班组获得“创新...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">5</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2181.html" title="雅安地震 举国震惊" target="_blank" class="text">雅安地震 举国震惊</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">6</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2171.html" title="公司四届二次股东（董事）会胜利召开" target="_blank" class="text">公司四届二次股东（董...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">7</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2151.html" title="毛晓涛光荣参军" target="_blank" class="text">毛晓涛光荣参军</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">8</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-2121.html" title="齐春华同志荣获上海市大型科学仪器设施共享服务先进个人" target="_blank" class="text">齐春华同志荣获上海市...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">9</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-211.html" title="我公司荣获“服务平台奖”。" target="_blank" class="text">我公司荣获“服务平台...</a></td>
+        </tr>
+        
+        <tr onmouseover="this.bgColor='#ffffff';" onmouseout="this.bgColor='#efefef';"> 
+          <td width="18%" height="22" align="center" bgcolor="#F3F3F3">10</td>
+          <td width="82%" style="border-bottom: 1 solid #737173"><a href="shownews-210.html" title="我公司队在“119消防周”消防知识竞赛中获得二等奖" target="_blank" class="text">我公司队在“119消...</a></td>
+        </tr>
+        
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+			 </td>
+             <td valign="top" background="../images/inside_bg.gif" bgcolor="#FFFFFF">
+               <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                 <tr>
+                   <td><img src="../images/news_title.jpg" alt="最新动态|News" width="579" height="43"></td>
+                 </tr>
+                 <tr>
+                   <td><img src="../images/inside_line.gif" width="579" height="10"></td>
+                 </tr>
+               </table>
+               <table width="572" border="0" cellspacing="0" cellpadding="0">
+                 <tr>
+                   <td width="12">&nbsp;</td>
+                   <td width="560"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                         <td width="238" valign="bottom" background="../images/title_bg1.gif" class="bold_blue"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                             <tr>
+                               <td height="21" class="bold_blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/ico1.gif" width="8" height="4" vspace="0" align="absmiddle"> &nbsp;&nbsp;新闻中心</td>
+                             </tr>
+                         </table></td>
+                         <td width="283" valign="bottom" background="../images/title_bg2.gif">&nbsp; </td>
+                         <td background="../images/title_bg2.gif"><div align="right"><img src="../images/title_ls.gif" width="7" height="25"></div></td>
+                       </tr>
+                   </table></td>
+                 </tr>
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td background="../images/inside_tb_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                         <td height="12"></td>
+                       </tr>
+                     </table>
+                       <table class="border" width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+                         <tr>
+                           <td height="206" valign="top">
+                             <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                               <tr>
+                                 <td height="30" colspan="2" align="center" class="text_red_b2">毛晓涛光荣参军</td>
+                               </tr>
+                               <tr>
+                                 <td width="17%" class="news_tx2" style="border-top: 1 solid #999999;border-bottom: 1 solid #999999">双击自动滚屏</td>
+                                 <td width="83%" class="news_tx1" style="border-top: 1 solid #999999;border-bottom: 1 solid #999999">发布者：hkz1956 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发布时间：2012-12-26 9:37:38 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;阅读：<font color="#FF0000">24698</font>次</td>
+                               </tr>
+                               
+                               <tr>
+                                 <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                     <tr>
+                                       <td>&nbsp;</td>
+                                     </tr>
+                                   </table>
+                                     <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#F0F0F0">
+                                       <tr>
+                                         <td width='14%' class='text_body'>内容摘要:</td>
+                                         <td width='86%' bgcolor='#F6F6F6' class='text_body'>...</td>
+                                       </tr>
+                                   </table></td>
+                               </tr>
+                               
+                               <tr>
+                                 <td colspan="2"><br>
+                                     <div style="text_body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 公司员工毛晓涛最近应征入伍，成为一名光荣的武警战士。小毛同志从医药中专毕业来到我公司的“中药现代化生产中试孵化基地”从事制剂工作多年，是位业务骨干。但他一直向往能够成为一名解放军战士。这次符合条件应征入伍也是了却多年的宿愿。
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在欢送小毛入伍的仪式上，沈平孃主任一再嘱咐小毛入伍后，要不怕吃苦，在部队得到千锤百炼。</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12月20日，工会主席黄凯中与工会委员吴紫芳专程赶到静安区武装部为小毛送行。</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 据悉，毛晓涛将是武警驻藏部队的汽车兵，先在成都进行二个月的新兵训练后入藏。</div>
+<div>&nbsp;</div>
+<div><img onmousewheel="return zoom_img(event,this)" border="undefined" alt="" src="UploadFiles/2012122694256928.jpg" onload="javascript:if(this.width>540)this.width=540"><br><br></div>
+<div>&nbsp;</div>
+<div><img onmousewheel="return zoom_img(event,this)" border="undefined" alt="" src="UploadFiles/2012122694326912.jpg" onload="javascript:if(this.width>540)this.width=540"></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div><img onmousewheel="return zoom_img(event,this)" border="undefined" alt="" src="UploadFiles/2012122694349189.jpg" onload="javascript:if(this.width>540)this.width=540"></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div></div></td>
+                               </tr>
+                               <tr align="right">
+                                 <td colspan="2">&nbsp;</td>
+                               </tr>
+                               <tr align="right">
+                                 <td colspan="2">&nbsp;</td>
+                               </tr>
+                               
+                             </table>
+                             <br>
+                             <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                               <tr>
+                                 <td align="right"> <a href="javascript:window.print()" class="buttom_link">打印本页</a> <span class="text">|</span> <a href="javascript:window.close()" class="buttom_link">关闭窗口</a></td>
+                               </tr>
+                           </table></td>
+                         </tr>
+                       </table></td>
+                 </tr>
+                 <tr>
+                   <td></td>
+                   <td><img src="../images/inside_tb_bottom.gif" width="560" height="3"></td>
+                 </tr>
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                 </tr>
+               </table></td>
+           </tr>
+         </table>           </td>
+       </tr>
+     </table></td>
+     <td width="3" rowspan="2" background="../images/right_l.gif">&nbsp;</td>
+   </tr>
+   <tr>
+     <td height="69" valign="bottom" background="../images/b_bg.jpg"><table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="20"><div align="center"><br>
+            </div></td>
+          </tr>
+          <tr>
+            <td height="20"><div align="center">联系地址：中国（上海）自由贸易试验区牛顿路200号4号楼 <a href="javascript:;">沪ICP备19039227号-1</a></div></td>
+          </tr>
+          <tr>
+            <td height="20"><div align="center">访问统计：
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="104" height="24">
+                <param name="movie" value="../flash/getcounter.swf">
+				<param name="wmode" value="transparent">
+                <param name="quality" value="high">
+                <embed src="../flash/getcounter.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="104" height="24">
+              </object>
+            </div></td>
+          </tr>
+        </table>
+</td>
+   </tr>
+ </table>
